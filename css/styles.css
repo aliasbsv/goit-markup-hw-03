@@ -94,10 +94,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  text-align: center;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
-.hero-btn:focus {
+:focus {
   background: #404bbf;
 }
 

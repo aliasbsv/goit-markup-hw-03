@@ -39,6 +39,10 @@ body {
 
 /* ======== Page Header styles ======== */
 
+.page-hdr {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -99,12 +103,12 @@ body {
 
 .page-menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .page-link {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .page-hdr-container {
@@ -134,6 +138,7 @@ body {
 
 .hero-btn {
   display: block;
+  border-radius: 4px;
   font-family: inherit;
   background: #4d5ae5;
   font-weight: 500;

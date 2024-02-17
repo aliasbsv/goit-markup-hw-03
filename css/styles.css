@@ -2,10 +2,33 @@
 ul,
 ol {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
 }
 
 body {
@@ -24,6 +47,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .text-studio {
@@ -37,6 +61,9 @@ body {
 }
 
 .nav-menu {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -64,9 +91,32 @@ body {
 :focus {
   color: #404bbf;
 }
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.page-menu {
+  display: flex;
+  column-gap: 40px;
+}
+
+.page-link {
+  display: flex;
+  column-gap: 40px;
+}
+
+.page-hdr-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* ======== Hero Section styles ======== */
 .hero-section {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -76,9 +126,14 @@ body {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
+  display: block;
   font-family: inherit;
   background: #4d5ae5;
   font-weight: 500;
@@ -87,7 +142,13 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   text-align: center;
-  cursor: pointer;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn:hover,
@@ -189,4 +250,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+/* ======== container ======== */
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }

@@ -206,6 +206,25 @@ body {
 /* ======== Team section ======== */
 .team-section {
   background: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-tabl {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background: #fff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.cont-div {
+  padding: 32px 0;
 }
 
 .team-title {
@@ -215,10 +234,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-}
-
-.team-card {
-  background: #fff;
+  margin-bottom: 72px;
 }
 
 .team-name {
@@ -227,21 +243,40 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* ======== Projekt Card Section ======== */
+
+.portfolio-section {
+  padding: 126px 0 114px 0;
+}
+
+.prt-tab {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+}
+.portfolio-liste {
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .portfolio-application {
@@ -250,6 +285,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-direction {
@@ -258,9 +294,16 @@ body {
   letter-spacing: 0.02em;
 }
 
+.portfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 /* ======== Footer ======== */
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -271,6 +314,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -282,6 +327,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /* ======== container ======== */
